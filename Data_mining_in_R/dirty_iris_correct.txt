@@ -1,0 +1,4 @@
+
+if(!is.na(Sepal.Length) & Sepal.Length <= 0){
+  Sepal.Length <- NA
+}
